@@ -1,0 +1,10 @@
+.LoginModal {
+    align-content: center;
+}
+
+.LoginModalHeader {
+    font-size: 24px;
+    font-weight: 400px;
+    /* position: absolute;
+    left: 45%; */
+}

@@ -1,0 +1,35 @@
+.LoginPage {
+    background-image: url('../assets/images/Login-BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.LoginMain {
+    padding: 0px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.LoginHeader{
+    font-size: 46px;
+    font-weight: 600;
+    color: var(--white-text);
+}
+
+.LoginContent{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--white-text);
+}
+
+.JoinButton{
+    background-color: black;
+}
+
+.LoginImage {
+    width: -webkit-fill-available;
+}
