@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import LoginImage from '../assets/images/Login-Image-Theme.png';
-import Logo from '../assets/images/Logo-2.png';
+import Logo from '../assets/images/Logo-2.svg';
 import LoginModal from "../components/LoginModal";
 import './LoginPage.css';
 
@@ -12,7 +12,6 @@ const LoginPage = () => {
             <Container fluid className="LoginMain">
                 <Row className="gx-md-0 gy-4 gy-md-0">
                     <Col md={5} className="px-5 gy-2 my-auto">
-                        {/* <p className="LoginHeader">Sociolyfe</p> */}
                         <img src={Logo} alt="" />
                         <p className="LoginContent">
                             Sociolyfe helps you connect and share with the various people in your life.
