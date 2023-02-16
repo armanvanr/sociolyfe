@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, CloseButton, Col, Container, Form, Modal, Row, Stack } from "react-bootstrap";
-import LogoIcon from '../assets/images/Logo-Icon.svg';
+import LogoIcon from '../assets/images/Logo-Icon-3.svg';
 import './LoginModal.css';
 
 const LoginModal = (props) => {

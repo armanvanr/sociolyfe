@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import LoginImage from '../assets/images/Login-Image-Theme.png';
-import Logo from '../assets/images/Logo-2.svg';
+import LoginImage from '../assets/images/Login-Image-Theme.svg';
+import Logo from '../assets/images/Logo-3.svg';
 import LoginModal from "../components/LoginModal";
 import './LoginPage.css';
 
