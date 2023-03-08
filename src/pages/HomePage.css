@@ -1,0 +1,12 @@
+.HomePage{
+    /* flex: 0.7; */
+}
+
+.HomeMain{
+    flex: auto;
+    /* margin-left: 250px; */
+}
+
+.HomeSide{
+    flex: 0.4;
+}

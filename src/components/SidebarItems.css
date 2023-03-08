@@ -1,0 +1,50 @@
+.SidebarItem {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    max-width: 200px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #666668;
+}
+
+.SidebarItem>.Icon {
+    font-size: 25px;
+    align-self: center;
+    margin: 0 15px;
+    color: #666668;
+}
+
+.SidebarItem>.IconActive {
+    display: none;
+}
+
+.SidebarItem>.Text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666668;
+}
+
+.SidebarItem:hover {
+    background-color: #67f7c6;
+    transition: color 100ms ease-out;
+}
+
+.SidebarItem:hover>.Icon,
+.SidebarItem:hover>.Text {
+    color: #505052;
+    font-weight: 800;
+    transition: color 100ms ease-out;
+}
+
+.SidebarItem:hover>.Icon {
+    display: none;
+}
+
+.SidebarItem:hover>.IconActive {
+    display: inline;
+    font-size: 25px;
+    align-self: center;
+    margin: 0 15px;
+    color: #666668;
+}

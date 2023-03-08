@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, CloseButton, Col, Container, Form, Modal, Row, Stack } from "react-bootstrap";
-import LogoIcon from '../assets/images/Logo-Icon-3.svg';
+import LogoIcon from '../assets/images/LogoIcon.svg';
 import './LoginModal.css';
 
 const LoginModal = (props) => {
@@ -17,7 +17,7 @@ const LoginModal = (props) => {
             <Container className="d-flex flex-column">
                 <Stack direction="horizontal" className="mt-2">
                     <div direction="" className="mx-auto">
-                        <img src={LogoIcon} alt="" className="LogoIconLogin py-2 ms-4" />
+                        <img src={LogoIcon} alt="" className="py-2 ms-4" width={60}/>
                     </div>
                     <div direction="" className="">
                         <CloseButton onClick={props.onHide} className="ms-auto my-auto me-2" />
